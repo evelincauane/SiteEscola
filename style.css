@@ -1,3 +1,40 @@
-body{
-    background-color: #b96ad1;
-}
+.cabecalho{
+        background-color: #000000;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px 0;
+       }
+
+    .cabecalho-imagem{
+    width: 20%;
+    }
+
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        padding: 24px 0;
+        font-size: 24px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .escola-imagem{
+        width: 20%;
+    }
+
+    .escola{
+        background-image: linear-gradient(#000000,#6d2471);
+        color: white;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    }
+
+    .escola-conteudo{
+        width: 55%;
+    }
